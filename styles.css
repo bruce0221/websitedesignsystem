@@ -22,6 +22,18 @@ body {
 }
 
 
+a:visited{ 
+text-decoration: none;
+color: #27374D ;
+}
+
+
+a { 
+    text-decoration: none;
+    color: #27374D ;
+    }
+
+
 
 .item-a { 
     grid-area: header;
@@ -32,7 +44,7 @@ body {
     text-align: center;
     color: white;
     padding: 70px 0 ;
-    font-size: 50px;
+    font-size: 48px;
 }
 
 .item-b { 
@@ -57,13 +69,21 @@ body {
 
 .item-b h3 { 
     text-align: center;
-    color: #27374D;
-    padding: 70px 0;
+    color: #132731;
+    padding-bottom: 30px;
+
+}
+
+.item-b h2 { 
+    text-align: center;
+    color: #132731;
+    font-size: 50px;
+    padding-top: 10px;
 
 }
 
 .selected { 
-    text-decoration: underline;
+    background-color: #F9F871 ;
 }
 
 
@@ -116,6 +136,15 @@ body {
     margin: 50px 0;
 }
 
+.item-d .color-05 { 
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #F9F871;
+    margin: 50px 0;
+}
+
+
 
 
 
@@ -131,3 +160,52 @@ body {
 .color-code { 
     font-weight: bold;
 }
+
+.item-d .lato_style { 
+    padding: 10px 30px ;
+    font-family: "Lato";
+}
+
+.lato_style p { 
+    line-height: 1.5;
+}
+
+.item-d .font_style_lato { 
+    font-weight: bold;
+}
+
+.item-d h3 { 
+    font-size: 40px;
+}
+
+.item-d .type_scale { 
+    margin-top: 100px ;
+}
+
+.item-d .lato_style td { 
+    padding: 10px ;
+    padding-right: 40px ;
+
+}
+
+.item-d table { 
+    font-family: "Lato";
+}
+
+.item-d tr .scale_sample h1 { 
+    font-size: 48px  ;
+}
+
+.item-d tr .scale_sample h2 { 
+    font-size: 36px  ;
+}
+
+.item-d tr .scale_sample h3 { 
+    font-size: 30px  ;
+}
+
+.item-d tr .scale_sample_body { 
+    font-size: 18px;
+   
+}
+
