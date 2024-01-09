@@ -155,10 +155,12 @@ a {
 
 .color-name { 
     font-weight: bold;
+    color: #526D82;
 }
 
 .color-code { 
     font-weight: bold;
+    color: #526D82;
 }
 
 .item-d .lato_style { 
@@ -216,3 +218,24 @@ a {
 #description { 
     color: #526D82 ;
 }
+
+.icon_table { 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    margin: 50px;
+    
+}
+
+.icon_table img { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon_name { 
+    text-align: center;
+    font-family: "Lato";
+    color:  #526D82;
+}
+
